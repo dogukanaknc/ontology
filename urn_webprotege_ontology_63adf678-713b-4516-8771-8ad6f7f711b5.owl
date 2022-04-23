@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:63adf678-713b-4516-8771-8ad6f7f711b5#"
+     xml:base="urn:webprotege:ontology:63adf678-713b-4516-8771-8ad6f7f711b5"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:63adf678-713b-4516-8771-8ad6f7f711b5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R55IwmlAvuoI0oPEllbUVx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R55IwmlAvuoI0oPEllbUVx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9SB8X8tOOkYDY5hKu6qekz"/>
+        <dc:creator xml:lang="tr">Boggiano,Angela</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">İtalyan Mutfağı Kültürü</dc:subject>
+        <dc:title xml:lang="tr">İtalyan Mutfağı</dc:title>
+        <rdfs:label xml:lang="en">İtalyan Mutfağı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.iskultur.com.tr/italyan-mutfagi.aspx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mR7U32fBb8sgZGJQa73zQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7mR7U32fBb8sgZGJQa73zQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9xCVA9sa9CHXeejGSR16TV"/>
+        <dc:creator xml:lang="tr">Kolektif yazar</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Boyut Yayın Grubu</dc:publisher>
+        <dc:subject xml:lang="tr">Asya Hint Mutfağı</dc:subject>
+        <dc:title xml:lang="tr">Dünya Yemekleri Hint Mutfağı</dc:title>
+        <rdfs:label xml:lang="en">Dünya Yemekleri Hint Mutfağı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/D%C3%BCnya-Yemekleri-Hint-Mutfa%C4%9F%C4%B1-Kolektif/dp/9752303439"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nyJ4GBEbXni4PhAiWOjAW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7nyJ4GBEbXni4PhAiWOjAW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PGqgXNN0ZH9ErElpyEPgv"/>
+        <dc:creator xml:lang="tr">Dağdeviren,Musa</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="en">Phaidon Press Ltd</dc:publisher>
+        <dc:subject xml:lang="tr">Türk mutfağı ve yemek gelenekleri</dc:subject>
+        <dc:title xml:lang="tr">The Turkish Cookbook</dc:title>
+        <rdfs:label xml:lang="en">The Turkish Cookbook</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Turkish-Cookbook-Musa-Da%C4%9Fdeviren/dp/0714878154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7oM0dHGP4ZaLe0eUqzoLVx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7oM0dHGP4ZaLe0eUqzoLVx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PGqgXNN0ZH9ErElpyEPgv"/>
+        <dc:creator xml:lang="tr">Martin,Toni Tipton</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">İngilizce</dc:language>
+        <dc:publisher xml:lang="en">Clarkson Potter Publishers</dc:publisher>
+        <dc:subject xml:lang="tr">Afro-Amerikan gastronomisi</dc:subject>
+        <dc:title xml:lang="en">Jubilee</dc:title>
+        <rdfs:label xml:lang="en">Jubilee</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Jubilee-Recipes-Centuries-African-American-Cookbook/dp/1524761737"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PGqgXNN0ZH9ErElpyEPgv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8PGqgXNN0ZH9ErElpyEPgv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9NmmZTGx4sXyOYjISAu3a1"/>
+        <rdfs:comment xml:lang="tr">Dünya mutfağının kitaplarının sınıflandığı alan.</rdfs:comment>
+        <rdfs:label xml:lang="en">World Kitchen Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gcANfotIECztXXAixvQ2w -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8gcANfotIECztXXAixvQ2w">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CQ6CoQewmAPhXFmcb8wgf"/>
+        <dc:creator xml:lang="tr">Anonim</dc:creator>
+        <dc:date xml:lang="tr">Bilgi yok</dc:date>
+        <dc:format xml:lang="tr">Dijital</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Detay Yayıncılık</dc:publisher>
+        <dc:subject xml:lang="tr">Türk mutfağı</dc:subject>
+        <dc:title xml:lang="tr">Ulusal Gastronomi ve Türk Mutfağı</dc:title>
+        <rdfs:label xml:lang="en">Ulusal Gastronomi ve Türk Mutfağı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.bkmkitap.com/ulusal-gastronomi-ve-turk-mutfagi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wXO2Qaf6RK4KSc0ctEMl1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wXO2Qaf6RK4KSc0ctEMl1">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">BOOKS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94ObehGma4uFf7xUNR2FpM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94ObehGma4uFf7xUNR2FpM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9SB8X8tOOkYDY5hKu6qekz"/>
+        <dc:creator xml:lang="en">Oliver,Jamie</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">İngilizce</dc:language>
+        <dc:publisher xml:lang="tr">Michael Joseph Yayınevi</dc:publisher>
+        <dc:subject xml:lang="tr">İtalyan Mutfağının Yemekleri</dc:subject>
+        <dc:title xml:lang="en">Jamie Cooks Italy</dc:title>
+        <rdfs:label xml:lang="en">Jamie Cooks Italy</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Jamie-Cooks-Italy/Foreign-Languages/Food-And-Beverage/Food/urunno=0001774941001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9CQ6CoQewmAPhXFmcb8wgf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9CQ6CoQewmAPhXFmcb8wgf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9NmmZTGx4sXyOYjISAu3a1"/>
+        <rdfs:comment xml:lang="tr">Türk yemek mutfağının kitaplarının sınıflandığı alan.</rdfs:comment>
+        <rdfs:label xml:lang="en">Turkish Kitchen Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NmmZTGx4sXyOYjISAu3a1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9NmmZTGx4sXyOYjISAu3a1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDeMB7iWBHn6PlKED0ClCLh"/>
+        <rdfs:comment xml:lang="tr">Yiyeceklerin mutfaklara göre sınıflanacağı alandır.</rdfs:comment>
+        <rdfs:label xml:lang="en">Type of Kitchen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9SB8X8tOOkYDY5hKu6qekz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9SB8X8tOOkYDY5hKu6qekz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9NmmZTGx4sXyOYjISAu3a1"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İtalyan yemek mutfağının kitaplarının sınıflandığı alan.</rdfs:comment>
+        <rdfs:label xml:lang="en">Italian Kitchen Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tHfi95qu5zgYxN7WQwqtF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9tHfi95qu5zgYxN7WQwqtF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CQ6CoQewmAPhXFmcb8wgf"/>
+        <dc:creator xml:lang="tr">Akkor,M. Ömür</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:format xml:lang="tr">dijital</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Ketebe</dc:publisher>
+        <dc:subject xml:lang="tr">Türk mutfağı</dc:subject>
+        <dc:title xml:lang="tr">Erken Dönem İslam Mutfak Sanatı ve Kültürü</dc:title>
+        <rdfs:label xml:lang="en">Erken Dönem İslam Mutfak Sanatı ve Kültürü</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/kitap/erken-donem-islam-mutfak-sanati-ve-kulturu/m-omur-akkor/hobi/yemek-ve-tatli/yemek-kitaplari/urunno=0001970118001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xCVA9sa9CHXeejGSR16TV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9xCVA9sa9CHXeejGSR16TV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9NmmZTGx4sXyOYjISAu3a1"/>
+        <rdfs:comment xml:lang="tr">Asya yemek mutfağının kitaplarının sınıflandığı alan.</rdfs:comment>
+        <rdfs:label xml:lang="en">Asia Kitchen Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9zAwCPGRNXiiN4kYHaz7Of -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9zAwCPGRNXiiN4kYHaz7Of">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CQ6CoQewmAPhXFmcb8wgf"/>
+        <dc:creator xml:lang="tr">Yerasimos,Marianna</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilgi yok</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yapı Kredi Yayınları Kültür</dc:publisher>
+        <dc:subject xml:lang="tr">Türk mutfağı</dc:subject>
+        <dc:title xml:lang="tr">500 Yıllık Osmanlı Mutfağı</dc:title>
+        <rdfs:comment xml:lang="tr">Bu eseri Marianna Yerasimos isimli yazar yaratmıştır.</rdfs:comment>
+        <rdfs:label xml:lang="en">500 Yıllık Osmanlı Mutfağı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.bkmkitap.com/500-yillik-osmanli-mutfagi?gclid=CjwKCAjwx46TBhBhEiwArA_DjBma241VJp9bBa3bTSKWCKkMa3iBm593lyzcsYng2r9FbHgcMrDuQhoCV74QAvD_BwE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBB4yGWVtmxvXLOQElAOFW1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBB4yGWVtmxvXLOQElAOFW1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9xCVA9sa9CHXeejGSR16TV"/>
+        <dc:creator xml:lang="en">Tsuji,Shizuo</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Kodansha International</dc:publisher>
+        <dc:subject xml:lang="tr">Japon Mutfağı</dc:subject>
+        <dc:title xml:lang="en">Japanese Cooking: A Simple Art</dc:title>
+        <rdfs:label xml:lang="en">Japanese Cooking: A Simple Art</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.fr/Japanese-Cooking-Simple-Shizuo-Tsuji/dp/1568363885"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJpnJmEGTU82k5crcTtpHx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJpnJmEGTU82k5crcTtpHx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDCZXucrSYE6NgkbB17sKkx"/>
+        <dc:creator xml:lang="en">Olvera,Jennifer</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:format xml:lang="en">Kindle Edition</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Rockridge Press</dc:publisher>
+        <dc:subject xml:lang="tr">Kolay Meksika yemekleri</dc:subject>
+        <dc:title xml:lang="en">Easy Mexican Food Favorites: A Mexican Cookbook for Taqueria-Style Home Cooking</dc:title>
+        <rdfs:label xml:lang="en">Easy Mexican Food Favorites: A Mexican Cookbook for Taqueria-Style Home Cooking</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Easy-Mexican-Food-Favorites-Taqueria-Style-ebook/dp/B01N5QYD9A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYxgkdZDavCy478lkYBo3j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBYxgkdZDavCy478lkYBo3j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9SB8X8tOOkYDY5hKu6qekz"/>
+        <dc:creator xml:lang="tr">Bottoni,Elvan Uysal</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yapı Kredi Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">İtalyan Lezzet Kitapları</dc:subject>
+        <dc:title xml:lang="tr">Mamma Mia – İtalyan Mutfağı Hakkında Çok Şey</dc:title>
+        <rdfs:label xml:lang="en">Mamma Mia – İtalyan Mutfağı Hakkında Çok Şey</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.yapikrediyayinlari.com.tr/mamma-mia-italyan-mutfagi-hakkinda-cok-sey.aspx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBipeH1QSxXuySwIY5BnMCq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBipeH1QSxXuySwIY5BnMCq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDCZXucrSYE6NgkbB17sKkx"/>
+        <dc:creator xml:lang="en">Conteno,Josef</dc:creator>
+        <dc:creator xml:lang="en">Hallock,Betty</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format xml:lang="en">Hardcover</dc:format>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Chronicle Books</dc:publisher>
+        <dc:subject xml:lang="en">Modern Texas-Mex Kitchen</dc:subject>
+        <dc:title xml:lang="en">Ama: A Modern Tex-Mex Kitchen (Mexican Food Cookbooks, Tex-Mex Cooking, Mexican and Spanish Recipes)</dc:title>
+        <rdfs:label xml:lang="en">Ama: A Modern Tex-Mex Kitchen (Mexican Food Cookbooks, Tex-Mex Cooking, Mexican and Spanish Recipes)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Ama-Tex-Mex-Kitchen-Josef-Centeno/dp/1452155860"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmt47ABj6kXFZmSCz8v9IC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmt47ABj6kXFZmSCz8v9IC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDCZXucrSYE6NgkbB17sKkx"/>
+        <dc:creator xml:lang="tr">Sam,Ömür</dc:creator>
+        <dc:date xml:lang="tr">2009</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Dönence Basım ve Yayın Hizmetleri</dc:publisher>
+        <dc:subject xml:lang="tr">Meksik Mutfağı lezzetleri</dc:subject>
+        <dc:title xml:lang="tr">Meksika Mutfağı</dc:title>
+        <rdfs:label xml:lang="en">Meksika Mutfağı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Meksika-Mutfagi/Omur-Sam/Hobi/Yemek-ve-Tatli/Yemek-Kitaplari/urunno=0000000306026"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCZXucrSYE6NgkbB17sKkx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDCZXucrSYE6NgkbB17sKkx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9NmmZTGx4sXyOYjISAu3a1"/>
+        <rdfs:label xml:lang="en">Mexican Kitchen Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeMB7iWBHn6PlKED0ClCLh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDeMB7iWBHn6PlKED0ClCLh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wXO2Qaf6RK4KSc0ctEMl1"/>
+        <rdfs:comment xml:lang="tr">Yiyecek kitaplarının sınıflanacağı alandır.</rdfs:comment>
+        <rdfs:label xml:lang="en">Food Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfQIi2h2qhhDRzQ0zmTcxn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfQIi2h2qhhDRzQ0zmTcxn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PGqgXNN0ZH9ErElpyEPgv"/>
+        <dc:creator xml:lang="en">Stone,Jeremiah</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">İngilizce</dc:language>
+        <dc:publisher xml:lang="en">Phaidon</dc:publisher>
+        <dc:subject xml:lang="tr">Mevsimsel yemekler ve doğal şaraplar</dc:subject>
+        <dc:title xml:lang="en">A Very Serious Cookbook: Contra Wildair (FOOD COOK)</dc:title>
+        <rdfs:label xml:lang="en">A Very Serious Cookbook: Contra Wildair (FOOD COOK)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Very-Serious-Cookbook-Contra-Wildair/dp/071487602X"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuYaCcgcNxlB2phXKCdMSf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuYaCcgcNxlB2phXKCdMSf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9xCVA9sa9CHXeejGSR16TV"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Junru,Lİu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:format xml:lang="tr">Dijital</dc:format>
+        <dc:language xml:lang="tr">Bilgi yok</dc:language>
+        <dc:publisher xml:lang="tr">Kaynak Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Çin Mutfağı</dc:subject>
+        <dc:title xml:lang="tr">Çin Mutfağı</dc:title>
+        <rdfs:label xml:lang="en">Çin Mutfağı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Cin-Mutfagi/Hobi/Yemek-Ve-Tatli/Yemek-Kitaplari/urunno=0001743329001"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
